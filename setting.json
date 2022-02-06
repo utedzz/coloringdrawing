@@ -1,8 +1,8 @@
 {
-  "name-web":"COLORING AND DRAWING",
-  "author":"coloring",
+  "name-web":"COLORING DRAWING FOR KIDS",
+  "author":"JAMES",
   "remove-comment-html":true,
-  "target":"https://coloringdrawing.blogspot.com/",
+  "target":"https://coloringdrawing.blogspot.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,7 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"coloringdrawing.blogspot",
+      "target":"stackoverflow.com",
+      "element-remove-selector":[
+        ".js-dismissable-hero",
+        ".lazy-loading"
+      ],
+      "replace-string":[
+        {
+          "target":"https://coloringdrawing.blogspot.com",
+          "replace":"${nameWeb}"
+        }
+      ]
+    },
+    {
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -34,24 +47,28 @@
         ".box__reserved.mh10"
       ],
       "replace-string":[]
+    },
+    {
+      "target":"www.itb.ac.id",
+      "element-remove-selector":[
+        ".box-header",
+        ".box-language",
+        ".section-10",
+        ".sidebar.active"
+      ],
+      "replace-string":[]
+    },
+    {
+      "target":"repositori.usu.ac.id",
+      "element-remove-selector":[
+        "header",
+        ".trail-wrapper",
+        "footer"
+      ],
+      "replace-string":[]
     }
   ],
   "inject-element-head":[
-    {
-      "name-element":"meta",
-      "data-attribute":[
-        {
-          "name-attribute":"name",
-          "value-attribute":"google-site-verification"
-        },
-        {
-          "name-attribute":"content",
-          "value-attribute":"7deuy3Ad7uUltAcdzbTJNH1QtSgnkY1Eowivw9pHBP0"
-        }
-      ],
-      "data-innerHTML":"",
-      "position":"start"
-    },
     {
       "name-element":"meta",
       "data-attribute":[
@@ -193,25 +210,6 @@
         {
           "name-attribute":"content",
           "value-attribute":"${authorPost}"
-        }
-      ],
-      "data-innerHTML":"",
-      "position":"start"
-    },
-    {
-      "name-element":"script",
-      "data-attribute":[
-        {
-          "name-attribute":"async",
-          "value-attribute":"async"
-        },
-        {
-          "name-attribute":"src",
-          "value-attribute":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        },
-        {
-          "name-attribute":"data-ad-client",
-          "value-attribute":"ca-pub-2860170400056904"
         }
       ],
       "data-innerHTML":"",
