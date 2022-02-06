@@ -2,7 +2,7 @@
   "name-web":"COLORING AND DRAWING",
   "author":"coloring",
   "remove-comment-html":true,
-  "target":"https://coloringdrawing.blogspot.com",
+  "target":"https://coloringdrawing.blogspot.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
