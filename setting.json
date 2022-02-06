@@ -1,8 +1,8 @@
 {
-  "name-web":"COLORING DRAWING FOR KIDS",
-  "author":"JAMES",
+  "name-web":"COLORING FOR KIDS",
+  "author":"Baby",
   "remove-comment-html":true,
-  "target":"https://coloringdrawing.blogspot.com",
+  "target":"https://coloringdrawing.blogspot.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,50 +20,23 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"https://coloringdrawing.blogspot.com/",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://coloringdrawing.blogspot.com",
+          "target":"https://coloringdrawing.blogspot.com/",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"https://coloringdrawing.blogspot.com/",
       "element-remove-selector":[
         ".baca",
-        ".op-interactive",
-        "#iklan_anchor",
-        ".box__reserved.noreserved.mt20.mb20",
-        ".box__reserved.mh10.nativeads",
-        ".box__reserved.mh27.sticky",
-        ".box__reserved.mh60.sticky",
-        ".box__reserved.ivideo_box",
-        ".box__reserved.fb_box.ac.mb20.bgwhite.bdr.facebook",
-        ".box__reserved.mh10"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"www.itb.ac.id",
-      "element-remove-selector":[
-        ".box-header",
-        ".box-language",
-        ".section-10",
-        ".sidebar.active"
-      ],
-      "replace-string":[]
-    },
-    {
-      "target":"repositori.usu.ac.id",
-      "element-remove-selector":[
-        "header",
-        ".trail-wrapper",
-        "footer"
+        ".op-interactive"
       ],
       "replace-string":[]
     }
@@ -74,11 +47,11 @@
       "data-attribute":[
         {
           "name-attribute":"name",
-          "value-attribute":"viewport"
+          "value-attribute":"google-site-verification"
         },
         {
           "name-attribute":"content",
-          "value-attribute":"width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=5.0"
+          "value-attribute":"2oNcfZcCS1dknjdrHduXA3NjiWADibZeWigmNkBck4A"
         }
       ],
       "data-innerHTML":"",
@@ -210,6 +183,25 @@
         {
           "name-attribute":"content",
           "value-attribute":"${authorPost}"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"script",
+      "data-attribute":[
+        {
+          "name-attribute":"async",
+          "value-attribute":"async"
+        },
+        {
+          "name-attribute":"src",
+          "value-attribute":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        },
+        {
+          "name-attribute":"data-ad-client",
+          "value-attribute":"ca-pub-2860170400056904"
         }
       ],
       "data-innerHTML":"",
